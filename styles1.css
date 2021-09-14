@@ -1,0 +1,65 @@
+.bg-img {
+    /* The image used */
+    background-image: url("images/la\ palm.jpg");
+  
+    min-height: 700px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(245, 223, 27);
+    color: black;
+  }
+
+  .color{
+      background-color: rgb(245, 223, 27);
+      border: none;
+      color: black;
+  }
+
+  .title{
+      text-align: center;
+      color: white;
+      margin-top: 200;
+      font-size: larger;
+  }
+
+  h3{
+      color: white;
+      font-size: larger;
+      text-align: center;
+  }
+
+  .button{
+      align-items: center;
+  }

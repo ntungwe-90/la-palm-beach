@@ -1,0 +1,2 @@
+# la-palm-beach
+ hotel
