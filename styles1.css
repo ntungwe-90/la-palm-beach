@@ -1,12 +1,13 @@
-.bg-img {
+.main-head {
     /* The image used */
     background-image: url("images/la\ palm.jpg");
   
-    min-height: 700px;
+    /* min-height: 700px; */
+    height: 700px;
   
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-position: center;
+    background-repeat: no-repeat; */
     background-size: cover;
   
     /* Needed to position the navbar */
@@ -20,6 +21,16 @@
     width: auto;
   }
   
+  .content{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+     /* width: 450px;  */
+    margin-left: 300px; 
+    font-weight: bolder;
+    
+   
+}
   /* The navbar */
   .topnav {
     overflow: hidden;
@@ -40,26 +51,18 @@
     background-color: rgb(245, 223, 27);
     color: black;
   }
+.award{
+  font-size: medium;
+  padding-top: 20px;
+  
+}
+  
+.blayout{
+  padding-top: 50px;
+}
 
-  .color{
-      background-color: rgb(245, 223, 27);
-      border: none;
-      color: black;
-  }
-
-  .title{
-      text-align: center;
-      color: white;
-      margin-top: 200;
-      font-size: larger;
-  }
-
-  h3{
-      color: white;
-      font-size: larger;
-      text-align: center;
-  }
-
-  .button{
-      align-items: center;
-  }
+.btn{
+  background-color: rgb(245, 223, 27);
+  color: black;
+}
+  
