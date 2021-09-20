@@ -1,0 +1,3 @@
+deployment:
+tasks:
+-export DEPLOYPATH=/home5/eitsecgh/public_html/irenehotel-/bin./cp * $DEPLOYPATH
