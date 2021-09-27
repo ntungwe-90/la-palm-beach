@@ -1,68 +1,84 @@
 .main-head {
-    /* The image used */
-    background-image: url("images/la\ palm.jpg");
-  
-    /* min-height: 700px; */
-    height: 700px;
-  
-    /* Center and scale the image nicely */
-    /* background-position: center;
-    background-repeat: no-repeat; */
-    background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
-  }
-  
-  /* Position the navbar container inside the image */
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  .content{
-    text-align: center;
-    padding-top: 100px;
-    color: white;
-     /* width: 450px;  */
-    margin-left: 300px; 
-    font-weight: bolder;
-    
-   
-}
-  /* The navbar */
-  .topnav {
-    overflow: hidden;
-    
-  }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  .topnav a:hover {
-    background-color: rgb(245, 223, 27);
-    color: black;
-  }
-.award{
-  font-size: medium;
-  padding-top: 20px;
-  
-}
-  
-.blayout{
-  padding-top: 50px;
+  /* The image used */
+  background-image: url("images/l2.jpg");
+
+  /* min-height: 700px; */
+  height: 700px;
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 
-.btn{
+/* Position the navbar container inside the image */
+
+/* rarely would u need to style a container. its a global class name when using bootstrap thus dont style it  */
+/* .container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+} */
+
+
+.mask {
+width: -webkit-fill-available;
+background-color: rgba(0,0,0,0.5);
+position: absolute;
+height: 100vh;
+} /* Specify a stack order in case you're using a different order for other elements */
+
+
+
+.content{
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+   /* width: 450px;  */
+  margin-left: 300px;
+  font-weight: bolder;
+
+
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
   background-color: rgb(245, 223, 27);
   color: black;
 }
-  
+.award{
+font-size: medium;
+padding-top: 20px;
+
+}
+
+.blayout{
+padding-top: 50px;
+}
+
+.btn{
+background-color: rgb(245, 223, 27);
+color: black;
+}
+
+.about-pizza{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
